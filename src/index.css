@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* hide scrollbar for all browsers */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.history::-webkit-scrollbar {
+  border-radius: 50px;
+  background-color: rgb(27, 27, 27);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50px;
+}
+
+
+pre::-webkit-scrollbar {
+  border-radius: 50px;
+  background-color: rgb(27, 27, 27);
+  margin: 120px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50px;
+}
+
+
+
+.Chat::-webkit-scrollbar {
+  width: 8px;
+  /* 👈 makes scrollbar thin (vertical) */
+  height: 6px;
+  /* 👈 makes scrollbar thin (horizontal) */
+
+  border-radius: 50px;
+  background-color: rgb(27, 27, 27);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50px;
+}
